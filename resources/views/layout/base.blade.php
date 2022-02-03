@@ -23,10 +23,12 @@ License: You must have a valid license purchased only from themeforest(the above
 
     <!-- BEGIN: CSS Assets-->
     <link rel="stylesheet" href="{{ mix('dist/css/app.css') }}" />
+    @livewireStyles
     <!-- END: CSS Assets-->
 </head>
 <!-- END: Head -->
 
 @yield('body')
 
+@livewireScripts
 </html>
